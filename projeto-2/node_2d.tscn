@@ -36,7 +36,13 @@ color = Color(0.170083, 0.660019, 0.391015, 1)
 [node name="StaticBody2D" type="StaticBody2D" parent="RigidBody2D/CollisionShape2D/ColorRect"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D/CollisionShape2D/ColorRect/StaticBody2D"]
-position = Vector2(205.497, -35.1995)
+position = Vector2(206.664, -34.2069)
+rotation = -0.00611757
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_0e48y")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D/CollisionShape2D/ColorRect/StaticBody2D"]
+position = Vector2(214.886, 116.97)
 rotation = -0.00611757
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_0e48y")
