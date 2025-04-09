@@ -8,7 +8,7 @@ size = Vector2(131, 82)
 size = Vector2(1157, 36.5)
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(0, -5)
+position = Vector2(2, -5)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_top = 10.0
