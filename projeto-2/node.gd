@@ -22,7 +22,7 @@ func spaw_object(position: Vector2) -> void:
 	var object: RigidBody2D = object_template.instantiate()
 	object.position = position
 	add_child(object)
-	#pass
+	
 	
 	
 	
